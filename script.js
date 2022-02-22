@@ -25,7 +25,7 @@ console.log(myself)
 
 
 
-const cadastro = [
+let cadastro = [
     {
         name: 'Julie',
         age: 18,
@@ -54,7 +54,11 @@ const cadastro = [
     }
 ]
  
-console.log(cadastro.friends.rick)
+console.log(`${cadastro[0].friends[0]} is a friend of ${cadastro[0].name}`)
+console.log(`${cadastro[1].friends[0]} is a friend of ${cadastro[1].name}`)
+console.log(`${cadastro[2].friends[0]} is a friend of ${cadastro[2].name}`)
+console.log(`${cadastro[3].friends[0]} is a friend of ${cadastro[3].name}`)
+console.log(`${cadastro[4].friends[0]} is a friend of ${cadastro[4].name}`)
 
 //Cada objeto deve receber as seguintes propriedades: nome,  idade,  telefone, amigos.
 
